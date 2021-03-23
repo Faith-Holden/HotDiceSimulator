@@ -58,7 +58,7 @@ public class PlayGame {
                 for (int i = 0; i<playerAverages.length; i++){
                     gameTotals[i]+=gameResults[i];
                     playerAverages[i] = ((gameTotals[i])/playedTimes);
-                    if (gameTotals[i]>=10000){
+                    if (gameResults[i]>=10000){
                         gameWinsTotal[i]++;
                     }
                 }
